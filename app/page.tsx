@@ -2,7 +2,6 @@ import Feature from '@/components/feature'
 import Hero from '@/components/hero'
 import Social from '@/components/social'
 import Testimonials from '@/components/testimonials'
-import Image from 'next/image'
 
 export default function Home() {
   return (

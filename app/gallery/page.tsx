@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import { BiSolidFoodMenu } from "react-icons/bi";
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/Bs'
-import { RxDotFilled } from 'react-icons/rx'
+import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
+import { RxDotFilled } from "react-icons/rx";
 import CTA from '@/components/call-to-action';
 
 const Gallery = () => {
