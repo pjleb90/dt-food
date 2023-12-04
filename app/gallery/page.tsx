@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image'
 import { useState } from 'react';
 import { BiSolidFoodMenu } from "react-icons/bi";
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/Bs'
