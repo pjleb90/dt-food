@@ -23,11 +23,11 @@ const Contact = () => {
                     <div className="flex justify-center items-center px-8">
                         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-4">
                             {/* location 1 */}
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <div className="max-w-sm bg-white border-b border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 py-4">
                                 <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                 <Image className="rounded-t-lg" src="/Lackner.png" alt="" width={500} height={500}/>
                                 </a>
-                                <div className="pt-5 px-5">
+                                <div className="pt-5">
                                     <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Lackner Shopping Centre</h5>
                                     </a>
@@ -43,11 +43,11 @@ const Contact = () => {
                                 </div>
                             </div>
                             {/* location 2 */}
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <div className="max-w-sm bg-white border-b border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 py-4">
                                 <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                 <Image className="rounded-t-lg" src="/Pioneer.png" alt="" width={500} height={500}/>
                                 </a>
-                                <div className="pt-5 px-5">
+                                <div className="pt-5">
                                     <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Pioneer Park Plaza</h5>
                                     </a>
@@ -63,11 +63,11 @@ const Contact = () => {
                                 </div>
                             </div>
                             {/* location 3 */}
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <div className="max-w-sm bg-white border-b border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 py-4">
                                 <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                 <Image className="rounded-t-lg" src="/Northfield.png" alt="" width={500} height={500}/>
                                 </a>
-                                <div className="pt-5 px-5">
+                                <div className="pt-5">
                                     <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Northfield Plaza</h5>
                                     </a>
@@ -83,11 +83,11 @@ const Contact = () => {
                                 </div>
                             </div>
                             {/* Location 4 */}
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <div className="max-w-sm bg-white border-b border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 py-4">
                                 <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                 <Image className="rounded-t-lg" src="/Bridge.png" alt="" width={500} height={500}/>
                                 </a>
-                                <div className="pt-5 px-5">
+                                <div className="pt-5">
                                     <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Bridge St W Plaza</h5>
                                     </a>
@@ -103,11 +103,11 @@ const Contact = () => {
                                 </div>
                             </div>
                             {/* Location 5 */}
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <div className="max-w-sm bg-white border-b border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 py-4">
                                 <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                 <Image className="rounded-t-lg" src="/Bullfrog.png" alt="" width={500} height={500}/>
                                 </a>
-                                <div className="pt-5 px-5">
+                                <div className="pt-5">
                                     <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Bullfrog Plaza *NEW</h5>
                                     </a>
@@ -123,11 +123,11 @@ const Contact = () => {
                                 </div>
                             </div>
                             {/* Location 6 */}
-                            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <div className="max-w-sm bg-white border-b border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 py-4">
                                 <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                 <Image className="rounded-t-lg" src="/Westgate.png" alt="" width={500} height={500}/>
                                 </a>
-                                <div className="pt-5 px-5">
+                                <div className="pt-5">
                                     <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer">
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Westgate Plaza</h5>
                                     </a>
