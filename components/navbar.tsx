@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useRouter, usePathname } from 'next/navigation';
 
@@ -14,6 +14,27 @@ const Navbar = () => {
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
+
+  useEffect(() => {
+    // Add event listener to close mobile menu on body click
+    const handleBodyClick = (event:any) => {
+      const navbar = document.getElementById('navbar-default');
+      if (navbar && !navbar.contains(event.target)) {
+        closeMobileMenu();
+      }
+    };
+    // Attach the event listener
+    document.body.addEventListener('click', handleBodyClick);
+
+    // Remove the event listener when the component unmounts
+    return () => {
+      document.body.removeEventListener('click', handleBodyClick);
+    };
+  }, []);
 
   return (
     <div>
@@ -126,10 +147,11 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
+        {/* mobile menu */}
         <div
           className={`${
             isMobileMenuOpen ? 'block' : 'hidden'
-          } w-full md:hidden mt-4 border border-gray-100 rounded-lg bg-gray-50 bg-opacity-90 md:flex md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-black dark:border-gray-700`}
+          } w-full md:hidden mt-4 border text-right border-gray-100 rounded-lg bg-gray-50 bg-opacity-90 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700`}
           id="navbar-default"
         >
           {/* Mobile menu links go here */}
