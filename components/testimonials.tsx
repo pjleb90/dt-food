@@ -11,9 +11,9 @@ const Testimonials = () => {
                     </div>
                     <div className="grid mb-8 lg:mb-12 lg:grid-cols-2">
                         {/* 1st review */}
-                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 lg:border-r dark:bg-black dark:border-gray-700">
+                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-white border-b border-gray-200 md:p-12 lg:border-r dark:bg-black dark:border-gray-700">
                             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Great food and friendly staff</h3>
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-red-700">Great food and friendly staff</h3>
                                 <p className="my-4">
                                     &ldquo;My friend recommended this place knowing my obsession with shawarma. I have not been to this place once but alot of times with friends. The restaurant is very clean and tidy. Everything is pin cleaned like you can literally see your face in the tiles..
                                 </p>
@@ -32,9 +32,9 @@ const Testimonials = () => {
                             </figcaption>
                         </figure>
                         {/* 2nd review */}
-                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 md:p-12 dark:bg-black dark:border-gray-700">
+                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-white border-b border-gray-200 md:p-12 dark:bg-black dark:border-gray-700">
                             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Amazing middle eastern food</h3>
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-red-700">Amazing middle eastern food</h3>
                                 <p className="my-4">
                                     &ldquo;Amazing middle eastern food. We have almost tried everything here and never got disappointed. It went above our expectations in terms of pricing, taste, quantity, quality and service.
                                 </p>
@@ -50,9 +50,9 @@ const Testimonials = () => {
                             </figcaption>
                         </figure>
                         {/* 3rd review */}
-                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-black dark:border-gray-700">
+                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-white border-b border-gray-200 lg:border-b-0 md:p-12 lg:border-r dark:bg-black dark:border-gray-700">
                             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Awesomely generous and tastes fabulously good</h3>
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-red-700">Awesomely generous and tastes fabulously good</h3>
                                 <p className="my-4">
                                     &ldquo;Amazing food. I discovered this place through a friend and also from an Instagram ad when they started recently.
                                 </p>
@@ -71,9 +71,9 @@ const Testimonials = () => {
                             </figcaption>
                         </figure>
                         {/* 4th review */}
-                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-gray-50 border-gray-200 md:p-12 dark:bg-black dark:border-gray-700">
+                        <figure className="flex flex-col justify-center items-center p-8 text-center bg-white border-gray-200 md:p-12 dark:bg-black dark:border-gray-700">
                             <blockquote className="mx-auto mb-8 max-w-2xl text-gray-500 dark:text-gray-400">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Friendly, fast & delicious meals</h3>
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-red-700">Friendly, fast & delicious meals</h3>
                                 <p className="my-4">
                                     &ldquo;Came in tonight and we ordered 5 meals plus baklava and a side of fries. The 2 women working there were really friendly, fast, and made the meals look so damn delicious.
                                 </p>
