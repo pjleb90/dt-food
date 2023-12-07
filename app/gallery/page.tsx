@@ -9,25 +9,28 @@ import CTA from '@/components/call-to-action';
 const Gallery = () => {
       const slides = [
         {
-            url: 'placeholder.jpeg',
+            url: '/combo.jpeg',
         },
         {
-            url: 'placeholder.jpeg',
+            url: 'poutine.jpeg',
         },
         {
-            url: 'placeholder.jpeg',
+            url: 'chickenWrap.jpeg',
         },
         {
-            url: 'placeholder.jpeg',
+            url: 'mixed.jpeg',
         },
         {
-            url: 'placeholder.jpeg',
-        },
-                {
-            url: 'placeholder.jpeg',
+            url: 'baklava.jpeg',
         },
         {
-            url: 'placeholder.jpeg',
+            url: 'pizza.jpeg',
+        },
+        {
+            url: 'fries.jpeg',
+        },
+        {
+            url: 'falafel.jpeg',
         },
     ];
 
