@@ -59,11 +59,11 @@ const Gallery = () => {
             <section className="bg-white dark:bg-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:pt-8 pb-4">
                     <div className="rounded-lg p-8 md:p-12 mb-8">
-                        <h1 className="text-gray-900 dark:text-red-700 text-3xl md:text-5xl font-extrabold mb-2">Some of our featured dishes</h1>
-                        <p className="text-lg font-normal text-gray-500 dark:text-white mb-6">
+                        <h1 className="text-gray-900 dark:text-red-700 text-3xl text-center md:text-left md:text-5xl font-extrabold mb-2">Some of our featured dishes</h1>
+                        <p className="text-lg font-normal text-center md:text-left text-gray-500 dark:text-white mb-6">
                             Like to see what you&#39;re ordering before you order? We got you covered.
                         </p>
-                        <a href="/menu" className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 border dark:bg-black dark:hover:bg-black dark:border-gray-600 dark:hover:outline-double dark:hover:border-red-700 dark:focus:ring-gray-700">
+                        <a href="/menu" className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-2xl md:rounded-lg inline-flex items-center justify-center px-4 py-2.5 border dark:bg-black dark:hover:bg-black dark:border-gray-600 dark:hover:outline-double dark:hover:border-red-700 dark:focus:ring-gray-700">
                             Menu
                             <BiSolidFoodMenu
                                 className="ms-2 rtl:rotate-180"

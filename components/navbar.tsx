@@ -121,10 +121,11 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          {/* hamburger button */}
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-red-700 dark:focus:ring-white"
             aria-controls="navbar-default"
             aria-expanded="false"
             onClick={toggleMobileMenu}
@@ -151,7 +152,7 @@ const Navbar = () => {
         <div
           className={`${
             isMobileMenuOpen ? 'block' : 'hidden'
-          } w-full md:hidden mt-4 border text-right border-gray-100 rounded-lg bg-gray-50 bg-opacity-90 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700`}
+          }  w-4/12 md:hidden mt-4 border text-center border-gray-100 rounded-lg bg-gray-50 bg-opacity-90 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700`}
           id="navbar-default"
         >
           {/* Mobile menu links go here */}

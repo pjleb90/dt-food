@@ -14,8 +14,8 @@ const Contact = () => {
                             <FaGoogle className="w-2.5 h-3 me-1.5" aria-hidden="true" />
                             View on Google
                         </a>
-                        <h1 className="text-gray-900 dark:text-red-700 text-3xl md:text-5xl font-extrabold mb-2">Visit one of our six locations</h1>
-                        <p className="text-lg font-normal text-gray-500 dark:text-white mb-6">
+                        <h1 className="text-gray-900 dark:text-red-700 text-center md:text-left text-3xl md:text-5xl font-extrabold mb-2">Visit one of our six locations</h1>
+                        <p className="text-lg font-normal text-center md:text-left text-gray-500 dark:text-white mb-6">
                             Satisfy your hunger or just stop in to say hello. Either way we would love to see you!
                         </p>
                     </div>
@@ -147,7 +147,7 @@ const Contact = () => {
                         {/* hours of operation */}
                         <div className='px-8 pt-4 text-center md:text-left'>
                             <h4 className="mb-2 text-xl font-bold text-gray-900 dark:text-red-700">Hours of operation</h4>
-                            <ul className="max-w-md space-y-1 text-gray-500 list-none list-inside dark:text-white text-left ">
+                            <ul className="max-w-md space-y-1 text-gray-500 list-none list-inside dark:text-white text-center md:text-left ">
                                 <li>
                                     Monday 10:00a.m. - 10:00p.m.
                                 </li>

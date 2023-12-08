@@ -7,8 +7,10 @@ const Menu = () => {
             <section className="bg-white dark:bg-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div className="max-w-screen-md">
-                        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl dark:text-red-700">Large portions at affordable prices.</h1>
-                        <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-white">
+                        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-center md:text-left text-black md:text-5xl lg:text-5xl dark:text-red-700">
+                            Large portions at affordable prices.
+                        </h1>
+                        <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-white text-center md:text-left">
                             At Double Taste Shawarma our portions will have you leaving full and our great flavour and prices will keep you coming back for more.
                         </p>
 
