@@ -9,27 +9,35 @@ import CTA from '@/components/call-to-action';
 const Gallery = () => {
       const slides = [
         {
+            title: 'Combo',
             url: '/combo.jpeg',
         },
         {
+            title: 'Poutine',
             url: 'poutine.jpeg',
         },
         {
+            title: 'Chicken Wrap',
             url: 'chickenWrap.jpeg',
         },
         {
+            title: 'Mixed',
             url: 'mixed.jpeg',
         },
         {
+            title: 'Baklava',
             url: 'baklava.jpeg',
         },
         {
+            title: 'Pizza',
             url: 'pizza.jpeg',
         },
         {
+            title: 'Fries',
             url: 'fries.jpeg',
         },
         {
+            title: 'Falafel',
             url: 'falafel.jpeg',
         },
     ];
@@ -54,7 +62,6 @@ const Gallery = () => {
 
     return (
         <div>
-
             {/* gallery hero */}
             <section className="bg-white dark:bg-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:pt-8 pb-4">
@@ -78,11 +85,17 @@ const Gallery = () => {
                 </div>
             </section>
             {/* carousel */}
-                <div className='max-w-[1400px] h-[400px] md:h-[680px] w-full m-auto pb-16 px-4 relative group bg-white dark:bg-black'>
+                <div className='max-w-[1200px] h-[400px] md:h-[680px] w-full m-auto pb-16 px-4 relative group bg-white dark:bg-black'>
                 <div
-                    style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+                    style={{ backgroundImage: `url(${slides[currentIndex].url})`,
+                        transition: 'background-image 1s ease-in-out',
+                    }}
                     className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
                 ></div>
+                {/* image title */}
+                <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-900 dark:text-red-700 text-3xl md:text-5xl font-extrabold mb-2">
+                    {slides[currentIndex].title}
+                </h1>
                 {/* Left Arrow */}
                 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <BsChevronCompactLeft onClick={prevSlide} size={30} />
@@ -96,7 +109,7 @@ const Gallery = () => {
                     <div
                         key={slideIndex}
                         onClick={() => goToSlide(slideIndex)}
-                        className='text-2xl cursor-pointer'
+                        className={`text-2xl cursor-pointer ${currentIndex === slideIndex ? 'text-red-700' : 'text-gray-500'}`}
                     >
                         <RxDotFilled />
                     </div>
