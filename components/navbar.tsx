@@ -49,7 +49,9 @@ const Navbar = () => {
               height={40}
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Double Taste Shawarma
+              {/* Conditionally render based on screen size */}
+              <span className="hidden md:inline">Double Taste Shawarma</span>
+              <span className="md:hidden text-center">DT Shawarma</span>
             </span>
           </a>
           <div className="hidden md:flex md:w-auto">
@@ -152,7 +154,7 @@ const Navbar = () => {
         <div
           className={`${
             isMobileMenuOpen ? 'block' : 'hidden'
-          }  w-4/12 md:hidden mt-4 border text-center border-gray-100 rounded-lg bg-gray-50 bg-opacity-90 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700`}
+          }  fixed top-0 right-0 w-4/12 md:w-4/12 md:hidden mt-20 mr-2 border text-center border-gray-100 rounded-lg bg-gray-50 bg-opacity-90 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700`}
           id="navbar-default"
         >
           {/* Mobile menu links go here */}
