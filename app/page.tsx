@@ -2,7 +2,6 @@ import CTA from '@/components/call-to-action'
 import Feature from '@/components/feature'
 import Gallery from '@/components/gallery'
 import Hero from '@/components/hero'
-import Social from '@/components/social'
 import Testimonials from '@/components/testimonials'
 
 export default function Home() {
