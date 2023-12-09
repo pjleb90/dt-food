@@ -10,10 +10,10 @@ const Feature = () => {
                             <br></br>You might leave wanting more but it won&apos;t be because you&apos;re hungry!
                         </p>
                         <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
-                            <a href="/menu" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-2xl md:rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-red-700 dark:focus:ring-gray-800">
+                            <a href="/menu" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-3xl md:rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-white dark:hover:bg-red-700 dark:focus:ring-gray-800">
                                 Menu
                             </a>
-                            <a href="/gallery" className="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-gray-900 rounded-2xl md:rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-red-700 dark:focus:ring-gray-800">
+                            <a href="/gallery" className="inline-flex justify-center items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-gray-900 rounded-3xl md:rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-white dark:hover:bg-red-700 dark:focus:ring-gray-800">
                                 Gallery
                             </a>
                         </div>

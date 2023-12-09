@@ -38,7 +38,7 @@ const Contact = () => {
                                          Kitchener, ON, N2A 3Z1
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        Phone: (519) 342-8882
+                                        Phone: <a href="tel:+15193428882">(519) 342-8882</a>
                                     </p>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ const Contact = () => {
                                          Kitchener, ON, N2P 2A3
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        Phone: (519) 894-4360
+                                        Phone: <a href="tel:+15198944360">(519) 894-4360</a>
                                     </p>
                                 </div>
                             </div>
@@ -72,13 +72,13 @@ const Contact = () => {
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Northfield Plaza</h5>
                                     </a>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        1405 Ottawa Street N Unit 2
+                                        36 Northfield Dr E
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                         Kitchener, ON, N2A 3Z1
+                                         Waterloo, ON N2L 6A1
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        Phone: (519) 342-8882
+                                        Phone: <a href="tel:+15198868488">(519) 886-8488</a>
                                     </p>
                                 </div>
                             </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                                          Waterloo, ON, N2K 3K3
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        Phone: (548) 255-0139
+                                        Phone: <a href="tel:+15482550139">(548) 255-0139</a>
                                     </p>
                                 </div>
                             </div>
@@ -112,13 +112,13 @@ const Contact = () => {
                                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Bullfrog Plaza *NEW</h5>
                                     </a>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        380 Eramosa Road Unit 1
+                                        380 Eramosa Road
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
                                          Guelph, ON, N1E 2M9
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        Phone: (519) 766-1355
+                                        Phone: <a href="tel:+15197661355">(519) 766-1355</a>
                                     </p>
                                 </div>
                             </div>
@@ -138,7 +138,7 @@ const Contact = () => {
                                          Cambridge, ON, N1S 1W4
                                     </p>
                                     <p className="mb-2 font-normal text-gray-700 dark:text-white">
-                                        Phone: (519) 267-8111
+                                        Phone: <a href="tel:+15192678111">(519) 267-8111</a>
                                     </p>
                                 </div>
                             </div>

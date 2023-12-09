@@ -70,7 +70,7 @@ const Gallery = () => {
                         <p className="text-lg font-normal text-center md:text-left text-gray-500 dark:text-white mb-6">
                             Like to see what you&#39;re ordering before you order? We got you covered.
                         </p>
-                        <a href="/menu" className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-2xl md:rounded-lg inline-flex items-center justify-center px-4 py-2.5 border dark:bg-black dark:hover:bg-black dark:border-gray-600 dark:hover:outline-double dark:hover:border-red-700 dark:focus:ring-gray-700">
+                        <a href="/menu" className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-3xl md:rounded-lg inline-flex items-center justify-center px-4 py-2.5 border dark:bg-black dark:hover:bg-black dark:border-white dark:hover:outline-double dark:hover:border-red-700 dark:focus:ring-gray-700">
                             Menu
                             <BiSolidFoodMenu
                                 className="ms-2 rtl:rotate-180"
