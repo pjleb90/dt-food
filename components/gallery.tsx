@@ -9,7 +9,7 @@ const Gallery = () => {
       const slides = [
         {
 
-            url: '/combo.jpeg',
+            url: 'combo.jpeg',
         },
         {
 

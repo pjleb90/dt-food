@@ -15,7 +15,7 @@ const Contact = () => {
                         </a>
                         <h1 className="text-gray-900 dark:text-red-700 text-center md:text-left text-3xl md:text-5xl font-extrabold mb-2">Visit one of our six locations</h1>
                         <p className="text-lg font-normal text-center md:text-left text-gray-500 dark:text-white mb-6">
-                            Satisfy your hunger or just stop in to say hello. Either way we would love to see you!
+                            Looking to satisfy your hunger or just have a question? Either way we would love to hear from you!
                         </p>
                     </div>
                     {/* location cards */}
