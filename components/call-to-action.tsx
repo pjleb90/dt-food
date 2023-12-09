@@ -8,6 +8,11 @@ const CTA = () => {
                 Available on all food delivery apps! Check UberEats, SkipTheDishes or DoorDash to order from your nearest location.
             </p>
             <div className="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
+                <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0">
+                    <a href="/menu" className="inline-flex justify-center items-center py-3 px-5 md:py-4 md:px-4 text-base font-medium text-center text-gray-900 rounded-3xl md:rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-white dark:hover:bg-red-700 dark:focus:ring-gray-800">
+                        View our menu
+                    </a>
+                </div>
                 <a href="https://www.ubereats.com/ca/store/double-taste-shawarma-waterloo/3cmtrF1bUBCfVTx6I8m2Ig?diningMode=DELIVERY&sc=SEARCH_SUGGESTION" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-3xl md:rounded-lg inline-flex items-center justify-center px-4 py-2.5 border dark:bg-black dark:hover:bg-black dark:border-white dark:hover:outline-double dark:hover:border-red-700 dark:focus:ring-gray-700">
                     <Image src="/UberEats.png" alt='SkipTheDishes logo' width={50} height={50} className="me-3 w-7 h-7" />
                     <div className="text-left rtl:text-right">

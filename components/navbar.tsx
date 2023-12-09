@@ -85,19 +85,6 @@ const Navbar = () => {
               <li>
                 <button
                   type="button"
-                  onClick={() => router.push('/gallery')}
-                  className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${
-                    isActive('/gallery')
-                      ? 'text-red-700 bg-white dark:bg-black dark:text-red-700'
-                      : 'text-gray-900 hover:text-red-700 dark:text-white'
-                  }`}
-                >
-                  Gallery
-                </button>
-              </li>
-              <li>
-                <button
-                  type="button"
                   onClick={() => router.push('/about')}
                   className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${
                     isActive('/about')
@@ -185,20 +172,6 @@ const Navbar = () => {
             }`}
           >
             Menu
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              router.push('/gallery');
-              toggleMobileMenu();
-            }}
-            className={`block py-2 px-3 rounded md:bg-transparent md:p-0 ${
-              isActive('/gallery')
-                ? 'text-red-700 bg-white dark:bg-black dark:text-red-700'
-                : 'text-gray-900 hover:text-red-700 dark:text-white'
-            }`}
-          >
-            Gallery
           </button>
           <button
             type="button"

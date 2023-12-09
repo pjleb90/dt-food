@@ -1,5 +1,3 @@
-
-import Social from '@/components/social';
 import Image from 'next/image';
 import { FaGoogle } from "react-icons/fa";
 
@@ -145,36 +143,54 @@ const Contact = () => {
                             </div>
                         </section>
                         </div>
-                        <Social />
-                        {/* hours of operation */}
-                        <div className='px-8 pt-4 text-center md:text-left'>
-                            <h4 className="mb-2 text-xl font-bold text-gray-900 dark:text-red-700">Hours of operation</h4>
-                            <ul className="max-w-md space-y-1 text-gray-500 list-none list-inside dark:text-white text-center md:text-left ">
-                                <li>
-                                    Monday 10:00a.m. - 10:00p.m.
-                                </li>
-                                <li>
-                                    Tuesday 10:00a.m. - 10:00p.m.
-                                </li>
-                                <li>
-                                    Wednesday 10:00a.m. - 10:00p.m.
-                                </li>
-                                <li>
-                                    Thursday 10:00a.m. - 10:00p.m.
-                                </li>
-                                <li>
-                                    Friday 10:00a.m. - 10:00p.m.
-                                </li>
-                                <li>
-                                    Saturday 10:00a.m. - 10:00p.m.
-                                </li>
-                                <li>
-                                    Sunday 10:00a.m. - 10:00p.m.
-                                </li>
-                            </ul>
+                        <div className='flex flex-wrap items-start justify-center md:justify-between px-8 pt-4'>
+                            {/* socials */}
+                            <div className="bg-white dark:bg-black">
+                            <div className="max-w-screen-xl px-4 py-6 mx-auto text-center lg:py-4 lg:px-6">
+                                <dl className="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 dark:text-white">
+                                <div className="flex flex-col items-center justify-center">
+                                    <dt className="mb-2 text-3xl md:text-4xl font-extrabold dark:text-red-700">6</dt>
+                                    <dd className="font-light text-gray-500 dark:text-white">locations</dd>
+                                </div>
+                                <div className="flex flex-col items-center justify-center">
+                                    <dt className="mb-2 text-3xl md:text-4xl font-extrabold dark:text-red-700">1M+</dt>
+                                    <dd className="font-light text-gray-500 dark:text-white">satisfied customers</dd>
+                                </div>
+                                <div className="flex flex-col items-center justify-center">
+                                    <dt className="mb-2 text-3xl md:text-4xl font-extrabold dark:text-red-700">7</dt>
+                                    <dd className="font-light text-gray-500 dark:text-white">days a week</dd>
+                                </div>
+                                </dl>
+                            </div>
+                            </div>
+                            {/* hours of operation */}
+                            <div className='px-8 pt-4 text-center md:text-left'>
+                                <h4 className="mb-2 text-2xl md:text-4xl font-bold text-gray-900 dark:text-red-700">Hours of operation</h4>
+                                <ul className="max-w-md space-y-1 text-gray-500 list-none list-inside dark:text-white text-center md:text-left ">
+                                    <li>
+                                        Monday 10:00a.m. - 10:00p.m.
+                                    </li>
+                                    <li>
+                                        Tuesday 10:00a.m. - 10:00p.m.
+                                    </li>
+                                    <li>
+                                        Wednesday 10:00a.m. - 10:00p.m.
+                                    </li>
+                                    <li>
+                                        Thursday 10:00a.m. - 10:00p.m.
+                                    </li>
+                                    <li>
+                                        Friday 10:00a.m. - 10:00p.m.
+                                    </li>
+                                    <li>
+                                        Saturday 10:00a.m. - 10:00p.m.
+                                    </li>
+                                    <li>
+                                        Sunday 10:00a.m. - 10:00p.m.
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        {/* socials */}
-
                     </div>
             </section>
         </div>
