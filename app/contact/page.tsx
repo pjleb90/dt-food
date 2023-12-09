@@ -1,4 +1,5 @@
 
+import Social from '@/components/social';
 import Image from 'next/image';
 import { FaGoogle } from "react-icons/fa";
 
@@ -144,6 +145,7 @@ const Contact = () => {
                             </div>
                         </section>
                         </div>
+                        <Social />
                         {/* hours of operation */}
                         <div className='px-8 pt-4 text-center md:text-left'>
                             <h4 className="mb-2 text-xl font-bold text-gray-900 dark:text-red-700">Hours of operation</h4>

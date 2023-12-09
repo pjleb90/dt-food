@@ -18,7 +18,7 @@ const Menu = () => {
                 </div>
             </section>
             {/* Plates Banner */}
-            <section className="bg-center bg-no-repeat bg-[url('/test.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
+            <section className="bg-center bg-no-repeat bg-[url('/realDT.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-24">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white dark:text-white md:text-5xl lg:text-6xl">Plates</h1>
                     <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -77,7 +77,7 @@ const Menu = () => {
             </section>
             </div>
             {/* Combos Banner */}
-            <section className="bg-center bg-no-repeat bg-[url('/test.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
+            <section className="bg-center bg-no-repeat bg-[url('/realDT.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-24">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white dark:text-white md:text-5xl lg:text-6xl">Combos</h1>
                     <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -127,7 +127,7 @@ const Menu = () => {
             </div>
 
             {/* Wraps Banner*/}
-            <section className="bg-center bg-no-repeat bg-[url('/test.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
+            <section className="bg-center bg-no-repeat bg-[url('/realDT.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-24">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white dark:text-white md:text-5xl lg:text-6xl">Wraps</h1>
                     <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -170,7 +170,7 @@ const Menu = () => {
             </div>
 
             {/* Salads Banner*/}
-            <section className="bg-center bg-no-repeat bg-[url('/test.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
+            <section className="bg-center bg-no-repeat bg-[url('/realDT.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-24">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white dark:text-white md:text-5xl lg:text-6xl">Salads</h1>
                     <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
@@ -212,7 +212,7 @@ const Menu = () => {
                 </section>
             </div>
             {/* Appetizers & Sides Banner*/}
-            <section className="bg-center bg-no-repeat bg-[url('/test.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
+            <section className="bg-center bg-no-repeat bg-[url('/realDT.jpeg')] bg-cover bg-gray-600 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-24">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white dark:text-white md:text-5xl lg:text-6xl">Appetizers & Sides</h1>
                     <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
