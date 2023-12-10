@@ -44,17 +44,17 @@ const Navbar = () => {
             <Image
               src="/favicon.ico"
               className="h-8 rounded-xl"
-              alt="Flowbite Logo"
+              alt="DT shawarma Logo"
               width={40}
               height={40}
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               {/* Conditionally render based on screen size */}
               <span className="hidden md:inline">Double Taste Shawarma</span>
-              <span className="md:hidden text-center">DT Shawarma</span>
+              <span className="md:hidden text-center">Shawarma</span>
             </span>
           </a>
-          <div className="hidden md:flex md:w-auto">
+          <div className="hidden md:flex md:w-auto justify-end">
             <ul className="font-medium flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse">
               <li>
                 <button
@@ -114,7 +114,7 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-red-700 dark:focus:ring-white"
+            className="inline-flex items-center w-8 h-8 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-red-700 dark:focus:ring-white"
             aria-controls="navbar-default"
             aria-expanded="false"
             onClick={toggleMobileMenu}

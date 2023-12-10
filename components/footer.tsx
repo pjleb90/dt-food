@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 const Footer = () => {
     return (
@@ -10,11 +10,11 @@ const Footer = () => {
                             <Image src="/favicon.ico" className="h-8 rounded-xl" alt="Flowbite Logo" width={40} height={40} />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Double Taste Shawarma</span>
                         </a>
-                        <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-white">
+                        <ul className="flex flex-wrap items-center justify-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-white">
                             <li>
                                 <a href="/" className="hover:text-red-700 me-4 md:me-6">Home</a>
                             </li>
-                           <li>
+                            <li>
                                 <a href="/menu" className="hover:text-red-700 me-4 md:me-6">Menu</a>
                             </li>
                             <li>
