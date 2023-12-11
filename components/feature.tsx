@@ -7,7 +7,7 @@ const Feature = () => {
                         <h1 className="text-center md:text-left  mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-5xl dark:text-red-700">Bring your appetite</h1>
                         <p className="mb-8 text-md text-center md:text-left font-normal text-gray-500 lg:text-xl dark:text-white">
                             Here at Double Taste Sharawma we pride ourselves on being able to deliver amazing portions at great prices.
-                            <br></br>You might leave wanting more but it won&apos;t be because you&apos;re hungry!
+                            <br></br>You might leave wanting more but it won&apos;t be because you&apos;re hungry.
                         </p>
                     </div>
                     <div className="flex-grow">

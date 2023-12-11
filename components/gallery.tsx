@@ -63,7 +63,7 @@ const Gallery = () => {
     useEffect(() => {
         const intervalId = setInterval(() => {
         nextSlide();
-        }, 5000); // Change the interval time
+        }, 8000); // Change the interval time
 
         // Cleanup the interval when the component unmounts
         return () => clearInterval(intervalId);
@@ -76,7 +76,7 @@ const Gallery = () => {
                 <div className='max-w-[1200px] h-[400px] md:h-[680px] w-full m-auto pb-16 px-4 relative group bg-white dark:bg-black'>
                     <div
                         style={{ backgroundImage: `url(${slides[currentIndex].url})`,
-                            transition: 'background-image 1s ease-in-out',
+                            transition: 'background-image delay-700 duration-300 ease-linear',
                         }}
                         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
                     ></div>
