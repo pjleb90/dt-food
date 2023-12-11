@@ -76,7 +76,7 @@ const Gallery = () => {
                 <div className='max-w-[1200px] h-[400px] md:h-[680px] w-full m-auto pb-16 px-4 relative group bg-white dark:bg-black'>
                     <div
                         style={{ backgroundImage: `url(${slides[currentIndex].url})`,
-                            transition: 'background-image delay-700 duration-300 ease-linear',
+                            transition: 'background-image 2s ease-in-out',
                         }}
                         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
                     ></div>
