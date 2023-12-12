@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className="bg-white dark:bg-black rounded-lg p-8 md:px-12 md:py-6">
                         <a href="https://www.google.com/search?sca_esv=586734894&sxsrf=AM9HkKlBurteqihdQOnLOvi0-TQ6TTSyug:1701391209519&q=double+taste+shawarma&npsic=0&rflfq=1&rldoc=1&rllag=43479766,-80480648,4862&tbm=lcl&sa=X&ved=2ahUKEwjP-6qVgO2CAxXXODQIHfWjCt8QtgN6BAgPEAE&biw=1310&bih=630&dpr=1.47#rlfi=hd:;si:;mv:[[43.510161599999996,-80.4240528],[43.387638599999995,-80.5372438]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u5!2m2!5m1!1sgcid_3middle_1eastern_1restaurant!1m4!1u5!2m2!5m1!1sgcid_3pizza_1restaurant!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e5!2m1!1e3!3sIAEqAkNB,lf:1,lf_ui:9" target="_blank" rel="noopener noreferrer" className="bg-blue-100 text-white text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md dark:bg-red-700 dark:text-white mb-2">
                             <FaGoogle className="w-2.5 h-3 me-1.5" aria-hidden="true" />
-                            View on Google
+                            Find a location near you
                         </a>
                         <h1 className="text-gray-900 dark:text-red-700 text-center md:text-left text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2">Visit one of our six locations</h1>
                         <p className="text-lg font-normal text-center md:text-left text-gray-500 dark:text-white mb-6">

@@ -26,11 +26,6 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className='flex justify-center items-center pt-8 px-4 lg:py-16 lg:px-6'>
-                <div>
-                    <Image src="/DT.jpeg" alt="DT logo" width={1000} height={1000} className=' rounded-lg' />
-                </div>
-            </section>
         </div>
     );
 }
