@@ -7,7 +7,7 @@ const Menu = () => {
             <section className="bg-white dark:bg-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div className="max-w-screen-md">
-                        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-center md:text-left text-black md:text-5xl lg:text-5xl dark:text-red-700">
+                        <h1 className="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-center md:text-left text-black dark:text-red-700">
                             Large portions at affordable prices.
                         </h1>
                         <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-white text-center md:text-left">
@@ -20,90 +20,84 @@ const Menu = () => {
 
             {/* Plates Banner */}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-8 lg:py-12">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Plates</h1>
-                    <p className="mb-8 text-lg font-normal text-black dark:text-white lg:text-xl sm:px-16 lg:px-48">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-6 lg:py-8">
+                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Plates</h1>
                 </div>
             </section>
             {/* Plates cards */}
-            <div className="flex justify-center items-center px-4">
-            <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-6">
-                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
-                    <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Chicken Shawarma Plate</h5>
-                        <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.39</h6>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Shawarma, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
-                            with your choice of sauces. Substitute salad for extra rice at no cost.
-                        </p>
-                </div>
-                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
-                    <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Chicken Shawarma Plate</h5>
-                        <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.39</h6>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Shawarma, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
-                            with your choice of sauces. Substitute salad for extra rice at no cost.
-                        </p>
-                </div>
-                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
-                    <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Falafel Plate</h5>
-                    <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$11.50</h6>
-                    <p className="font-normal text-gray-700 dark:text-gray-400">
-                        Falafel, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
-                        with your choice of sauces.
-                    </p>
-                </div>
-                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
-                    <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Souvlaki Plate</h5>
-                    <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.99</h6>
-                    <p className="font-normal text-gray-700 dark:text-gray-400">
-                        Marinated chicken breast, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
-                        with your choice of sauces.
-                    </p>
-                </div>
-                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
-                    <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Shawarma & Rice (no salad)</h5>
-                    <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.39</h6>
-                    <p className="font-normal text-gray-700 dark:text-gray-400">
-                        Chicken shawarma and extra white rice with your choice of sauces.
-                    </p>
-                </div>
-                <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
-                    <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Extra Meat</h5>
-                    <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$4.95</h6>
-                    <p className="font-normal text-gray-700 dark:text-gray-400">
-                        Add extra meat to your plate.
-                    </p>
-                </div>
+            <div className="flex justify-center items-center p-4">
+                <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-6">
                     <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
                         <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Substitute Rice with Fries</h5>
-                        <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$1.80</h6>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Chicken Shawarma Plate</h5>
+                            <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.39</h6>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                Shawarma, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
+                                with your choice of sauces. Substitute salad for extra rice at no cost.
+                            </p>
+                    </div>
+                    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                        <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Chicken Shawarma Plate</h5>
+                            <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.39</h6>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                Shawarma, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
+                                with your choice of sauces. Substitute salad for extra rice at no cost.
+                            </p>
+                    </div>
+                    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                        <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Falafel Plate</h5>
+                        <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$11.50</h6>
                         <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Want fries instead of rice? We got you covered.
+                            Falafel, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
+                            with your choice of sauces.
                         </p>
                     </div>
-            </section>
+                    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                        <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Souvlaki Plate</h5>
+                        <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.99</h6>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">
+                            Marinated chicken breast, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
+                            with your choice of sauces.
+                        </p>
+                    </div>
+                    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                        <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Shawarma & Rice (no salad)</h5>
+                        <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.39</h6>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">
+                            Chicken shawarma and extra white rice with your choice of sauces.
+                        </p>
+                    </div>
+                    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                        <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Extra Meat</h5>
+                        <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$4.95</h6>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">
+                            Add extra meat to your plate.
+                        </p>
+                    </div>
+                        <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
+                            <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Substitute Rice with Fries</h5>
+                            <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$1.80</h6>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">
+                                Want fries instead of rice? We got you covered.
+                            </p>
+                        </div>
+                </section>
             </div>
 
             {/* Combos Banner */}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-8 lg:py-12">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Combos</h1>
-                    <p className="mb-8 text-lg font-normal text-black dark:text-white lg:text-xl sm:px-16 lg:px-48">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-6 lg:py-8">
+                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Combos</h1>
                 </div>
             </section>
             {/* Combos cards */}
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
                 <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-6">
                     <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
                         <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
@@ -150,15 +144,12 @@ const Menu = () => {
 
             {/* Wraps Banner*/}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-8 lg:py-12">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Wraps</h1>
-                    <p className="mb-8 text-lg font-normal text-black dark:text-white lg:text-xl sm:px-16 lg:px-48">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-6 lg:py-8">
+                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Wraps</h1>
                 </div>
             </section>
             {/* Wraps cards */}
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
                 <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-6">
                     <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
                         <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
@@ -197,15 +188,12 @@ const Menu = () => {
 
             {/* Salads Banner*/}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-8 lg:py-12">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Salads</h1>
-                    <p className="mb-8 text-lg font-normal text-black dark:text-white lg:text-xl sm:px-16 lg:px-48">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-6 lg:py-8">
+                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Salads</h1>
                 </div>
             </section>
             {/* Salads cards */}
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
                 <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-6">
                     <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
                         <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
@@ -243,15 +231,12 @@ const Menu = () => {
             </div>
             {/* Appetizers & Sides Banner*/}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-8 lg:py-12">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">Appetizers & Sides</h1>
-                    <p className="mb-8 text-lg font-normal text-black dark:text-white lg:text-xl sm:px-16 lg:px-48">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-6 lg:py-8">
+                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Appetizers & Sides</h1>
                 </div>
             </section>
             {/* Appetizers & Sides cards */}
-            <div className="flex justify-center items-center px-4">
+            <div className="flex justify-center items-center p-4">
                 <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-6">
                     <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
                         <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>

@@ -13,7 +13,7 @@ const Contact = () => {
                             <FaGoogle className="w-2.5 h-3 me-1.5" aria-hidden="true" />
                             View on Google
                         </a>
-                        <h1 className="text-gray-900 dark:text-red-700 text-center md:text-left text-3xl md:text-5xl font-extrabold mb-2">Visit one of our six locations</h1>
+                        <h1 className="text-gray-900 dark:text-red-700 text-center md:text-left text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2">Visit one of our six locations</h1>
                         <p className="text-lg font-normal text-center md:text-left text-gray-500 dark:text-white mb-6">
                             Looking to satisfy your hunger or just have a question? Either way we would love to hear from you!
                         </p>

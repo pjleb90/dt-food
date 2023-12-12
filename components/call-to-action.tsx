@@ -3,7 +3,7 @@ import Image from 'next/image';
 const CTA = () => {
     return (
         <div className="w-full p-4 text-center bg-white rounded-lg shadow sm:p-8 dark:bg-black">
-            <h5 className="mb-2 text-4xl font-bold text-gray-900 dark:text-red-700">Ready to order?</h5>
+            <h5 className="mb-2 text-4xl md:text-5xl lg:text-5xl font-bold text-gray-900 dark:text-red-700">Ready to order?</h5>
             <p className="mb-5 text-base text-gray-500 sm:text-lg dark:text-white">
                 Available on all food delivery apps! Check UberEats, SkipTheDishes or DoorDash to order from your nearest location.
             </p>
