@@ -6,11 +6,12 @@ import Testimonials from '@/components/testimonials'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-8 bg-white dark:bg-black">
+    <main className="min-h-screen flex-col items-center justify-between p-8 bg-white dark:bg-black">
         <Hero />
         <Gallery />
         <Feature />
         <Testimonials />
+        <CTA />
     </main>
   )
 }
