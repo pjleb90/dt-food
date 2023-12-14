@@ -161,6 +161,7 @@ const Contact = () => {
                                     <dd className="font-light text-gray-500 dark:text-white">days a week</dd>
                                 </div>
                                 </dl>
+                                {/* video */}
                                 <div className="flex-grow py-6">
                                     <video className="w-full h-full rounded-lg shadow-xl" style={{ height: '400px', width: '600px' }} controls>
                                         <source src="/shawarma.mp4" type="video/mp4" />

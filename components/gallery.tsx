@@ -9,35 +9,35 @@ const Gallery = () => {
       const slides = [
         {
 
-            url: 'combo.jpeg',
+            url: 'placeholder.jpeg',
         },
         {
 
-            url: 'poutine.jpeg',
+            url: 'placeholder.jpeg',
         },
         {
 
-            url: 'chickenWrap.jpeg',
+            url: 'placeholder.jpeg',
         },
         {
 
-            url: 'mixed.jpeg',
+            url: 'placeholder.jpeg',
         },
         {
 
-            url: 'baklava.jpeg',
+            url: 'placeholder.jpeg',
         },
         {
 
-            url: 'pizza.jpeg',
+            url: 'placeholder.jpeg',
         },
         {
 
-            url: 'fries.jpeg',
+            url: 'placeholder.jpeg',
         },
         {
 
-            url: 'falafel.jpeg',
+            url: 'placeholder.jpeg',
         },
     ];
 
@@ -73,7 +73,7 @@ const Gallery = () => {
     return (
         <div className="w-full p-4 text-center bg-white rounded-lg shadow sm:p-8 dark:bg-black">
             {/* carousel */}
-                <div className='max-w-[1200px] h-[400px] md:h-[600px] w-full m-auto pb-12 px-4 relative group bg-white dark:bg-black'>
+                <div className='max-w-[1400px] h-[400px] md:h-[600px] w-full m-auto pb-12 relative group bg-white dark:bg-black'>
                     <div
                         style={{ backgroundImage: `url(${slides[currentIndex].url})`,
                             transition: 'background-image 1s ease-in',

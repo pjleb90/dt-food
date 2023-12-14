@@ -20,7 +20,7 @@ const Menu = () => {
 
             {/* Plates Banner */}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-6">
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Plates</h1>
                 </div>
             </section>
@@ -92,7 +92,7 @@ const Menu = () => {
 
             {/* Combos Banner */}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-6">
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Combos</h1>
                 </div>
             </section>
@@ -144,7 +144,7 @@ const Menu = () => {
 
             {/* Wraps Banner*/}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-6">
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Wraps</h1>
                 </div>
             </section>
@@ -188,7 +188,7 @@ const Menu = () => {
 
             {/* Salads Banner*/}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-6">
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Salads</h1>
                 </div>
             </section>
@@ -231,7 +231,7 @@ const Menu = () => {
             </div>
             {/* Appetizers & Sides Banner*/}
             <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-6">
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Appetizers & Sides</h1>
                 </div>
             </section>

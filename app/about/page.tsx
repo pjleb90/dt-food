@@ -21,8 +21,8 @@ const About = () => {
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4 mt-8">
-                        <Image className="w-full rounded-lg" src="/freshIngredients.png" alt="fresh_ingredients" width={500} height={500} />
-                        <Image className="mt-4 w-full lg:mt-10 rounded-lg" src="/freshIngredients.png" alt="fresh_ingredients" width={500} height={500} />
+                        <Image className="w-full rounded-lg" src="/placeholder.jpeg" alt="fresh_ingredients" width={500} height={500} />
+                        <Image className="mt-4 w-full lg:mt-10 rounded-lg" src="/placeholder.jpeg" alt="fresh_ingredients" width={500} height={500} />
                     </div>
                 </div>
             </section>
@@ -30,7 +30,7 @@ const About = () => {
             {/* DT features */}
             <section className="bg-white dark:bg-black">
                 <div className="container px-6 lg:px-36 py-10 mx-auto">
-                    <h1 className="text-3xl md:text-5xl font-semibold text-gray-800 capitalize dark:text-red-700">What makes Double Taste Shawarma <br></br> standout from the rest</h1>
+                    <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 capitalize dark:text-red-700">What makes Double Taste Shawarma <br></br> standout from the rest</h1>
                     {/* header underline */}
                     <div className="mt-2">
                         <span className="inline-block w-40 h-1 bg-red-700 dark:bg-white rounded-full"></span>
@@ -92,7 +92,7 @@ const About = () => {
                         </div>
 
                         <div className="hidden lg:flex lg:w-1/2 lg:justify-center">
-                            <Image className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" 
+                            <Image className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
                             src="/logo.jpeg" alt="" width={500} height={500} />
                         </div>
                     </div>
