@@ -40,7 +40,7 @@ const Menu = () => {
                 <a href="#combos" className="text-black dark:text-white hover:text-red-700 mx-2">Combos</a>
                 <a href="#wraps" className="text-black dark:text-white hover:text-red-700 mx-2">Wraps</a>
                 <a href="#salads" className="text-black dark:text-white hover:text-red-700 mx-2">Salads</a>
-                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2">Appetizers & Sides</a>
+                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2">Apps</a>
             </nav>
 
             {/* Plates Banner */}

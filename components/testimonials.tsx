@@ -4,7 +4,7 @@ const Testimonials = () => {
     return (
         <div>
             <section className="bg-white dark:bg-black">
-                <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-10 lg:px-6">
+                <div className="py-6 px-4 mx-auto max-w-screen-2xl text-center lg:py-8 lg:px-6">
                     <div className="mx-auto max-w-screen-xl">
                         <h2 className="mb-4 text-4xl md:text-5xl lg:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-red-700">Testimonials</h2>
                         <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-white">Don&#39;t just take it from us, here from our customers why we&#39;re the right choice for you.</p>
