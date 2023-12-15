@@ -4,7 +4,7 @@ const Feature = () => {
     return (
         <div>
             <section>
-                <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-10 md:px-20 lg:flex-row lg:items-center">
+                <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-10 md:px-18 lg:flex-row lg:items-center">
                     <div className="w-full lg:w-1/2">
                         <div className="lg:max-w-lg">
                             <h1 className="text-center md:text-left  mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-red-700">Bring your appetite</h1>

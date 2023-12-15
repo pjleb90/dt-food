@@ -1,16 +1,32 @@
+
+'use client';
+import { useEffect } from 'react';
 import CTA from '@/components/call-to-action';
 import Image from 'next/image'
 
 const Menu = () => {
+    useEffect(() => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    }, []);
+
     return (
         <div>
+            {/* menu hero */}
             <section className="bg-white dark:bg-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div className="max-w-screen-md">
                         <h1 className="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-center md:text-left text-black dark:text-red-700">
                             Large portions at affordable prices.
                         </h1>
-                        <p className="mb-8 font-light text-gray-500 sm:text-xl dark:text-white text-center md:text-left">
+                        <p className="mb-8 font-light text-gray-500 sm:text-xl md:text-2xl dark:text-white text-center md:text-left">
                             At Double Taste Shawarma our portions will have you leaving full and our great flavour and prices will keep you coming back for more.
                         </p>
 
@@ -18,8 +34,17 @@ const Menu = () => {
                 </div>
             </section>
 
+            {/* menu navigation */}
+            <nav className="text-center text-xl p-2">
+                <a href="#plates" className="text-black dark:text-white hover:text-red-700 mx-2">Plates</a>
+                <a href="#combos" className="text-black dark:text-white hover:text-red-700 mx-2">Combos</a>
+                <a href="#wraps" className="text-black dark:text-white hover:text-red-700 mx-2">Wraps</a>
+                <a href="#salads" className="text-black dark:text-white hover:text-red-700 mx-2">Salads</a>
+                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2">Appetizers & Sides</a>
+            </nav>
+
             {/* Plates Banner */}
-            <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="plates" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Plates</h1>
                 </div>
@@ -27,15 +52,6 @@ const Menu = () => {
             {/* Plates cards */}
             <div className="flex justify-center items-center p-4">
                 <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-6">
-                    <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
-                        <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Chicken Shawarma Plate</h5>
-                            <h6 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">$12.39</h6>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">
-                                Shawarma, white rice, garden salad (romaine lettuce, tomatoes, onions, cucumbers)
-                                with your choice of sauces. Substitute salad for extra rice at no cost.
-                            </p>
-                    </div>
                     <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700">
                         <figure><Image src="/placeholder.jpeg" alt="Shoes" width={500} height={500}/></figure>
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-red-700">Chicken Shawarma Plate</h5>
@@ -91,7 +107,7 @@ const Menu = () => {
             </div>
 
             {/* Combos Banner */}
-            <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="combos" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Combos</h1>
                 </div>
@@ -143,7 +159,7 @@ const Menu = () => {
             </div>
 
             {/* Wraps Banner*/}
-            <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="wraps" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Wraps</h1>
                 </div>
@@ -187,7 +203,7 @@ const Menu = () => {
             </div>
 
             {/* Salads Banner*/}
-            <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="salads" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Salads</h1>
                 </div>
@@ -230,7 +246,7 @@ const Menu = () => {
                 </section>
             </div>
             {/* Appetizers & Sides Banner*/}
-            <section className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="apps" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Appetizers & Sides</h1>
                 </div>

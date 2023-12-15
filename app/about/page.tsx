@@ -29,7 +29,7 @@ const About = () => {
 
             {/* DT features */}
             <section className="bg-white dark:bg-black">
-                <div className="container px-6 lg:px-36 py-10 mx-auto">
+                <div className="container px-6 lg:px-18 py-10 mx-auto">
                     <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 capitalize dark:text-red-700">What makes Double Taste Shawarma <br></br> standout from the rest</h1>
                     {/* header underline */}
                     <div className="mt-2">

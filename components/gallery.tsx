@@ -3,10 +3,17 @@
 import { useState, useEffect, useCallback } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from "react-icons/rx";
-import CTA from '@/components/call-to-action';
 
 const Gallery = () => {
       const slides = [
+        {
+
+            url: 'placeholder.jpeg',
+        },
+        {
+
+            url: 'placeholder.jpeg',
+        },
         {
 
             url: 'placeholder.jpeg',
