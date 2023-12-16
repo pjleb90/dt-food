@@ -19,15 +19,9 @@ const Menu = () => {
 
     return (
         <div>
-            {/* Menu Banner */}
-            <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply ">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
-                    <div className="mb-4 text-4xl py-4 md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black"></div>
-                </div>
-            </section>
             {/* menu hero */}
-            <section className="bg-white bg-cover">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <section className="bg-white bg-cover border-red-700 border-y-8">
+                <div className="py-8 px-4 mx-auto max-w-screen-xl md:py-8 md:px-6">
                     <div className="max-w-screen-md">
                         <h1 className="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-center md:text-left text-black">
                             Large portions at affordable prices.
@@ -41,19 +35,19 @@ const Menu = () => {
             </section>
 
             {/* menu navigation */}
-            <nav className="text-center text-xl py-2  flex bg-white font-bold">
-                <a href="#plates" className="text-black  hover:text-red-700 mx-2 flex-grow ">Plates</a>
-                <a href="#combos" className="text-black  hover:text-red-700 mx-2 flex-grow ">Combos</a>
-                <a href="#wraps" className="text-black  hover:text-red-700 mx-2 flex-grow ">Wraps</a>
-                <a href="#salads" className="text-black  hover:text-red-700 mx-2 flex-grow ">Salads</a>
-                <a href="#apps" className="text-black  hover:text-red-700 mx-2 flex-grow  hidden md:inline">Appetizers & Sides</a>
-                <a href="#apps" className="text-black  hover:text-red-700 mx-2 flex-grow md:hidden">Apps</a>
+            <nav className="text-center text-xl pb-2 pt-12  flex bg-black font-bold">
+                <a href="#plates" className="text-white  hover:text-red-700 mx-2 flex-grow underline">Plates</a>
+                <a href="#combos" className="text-white  hover:text-red-700 mx-2 flex-grow underline">Combos</a>
+                <a href="#wraps" className="text-white  hover:text-red-700 mx-2 flex-grow underline">Wraps</a>
+                <a href="#salads" className="text-white  hover:text-red-700 mx-2 flex-grow underline">Salads</a>
+                <a href="#apps" className="text-white  hover:text-red-700 mx-2 flex-grow  hidden md:inline underline">Appetizers & Sides</a>
+                <a href="#apps" className="text-white  hover:text-red-700 mx-2 flex-grow md:hidden underline">Apps</a>
             </nav>
 
             {/* Plates Banner */}
-            <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply ">
+            <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply border-y-2 border-white">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
-                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Plates</h1>
+                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-white">Plates</h1>
                 </div>
             </section>
             {/* Plates cards */}
@@ -114,9 +108,9 @@ const Menu = () => {
             </div>
 
             {/* Combos Banner */}
-            <section id="combos" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
+            <section id="combos" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
-                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Combos</h1>
+                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-white">Combos</h1>
                 </div>
             </section>
             {/* Combos cards */}
@@ -166,9 +160,9 @@ const Menu = () => {
             </div>
 
             {/* Wraps Banner*/}
-            <section id="wraps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
+            <section id="wraps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
-                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Wraps</h1>
+                    <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-white">Wraps</h1>
                 </div>
             </section>
             {/* Wraps cards */}
@@ -210,9 +204,9 @@ const Menu = () => {
             </div>
 
             {/* Salads Banner*/}
-            <section id="salads" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
+            <section id="salads" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Salads</h1>
+                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">Salads</h1>
                 </div>
             </section>
             {/* Salads cards */}
@@ -253,9 +247,9 @@ const Menu = () => {
                 </section>
             </div>
             {/* Appetizers & Sides Banner*/}
-            <section id="apps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
+            <section id="apps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Appetizers & Sides</h1>
+                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-5xl">Appetizers & Sides</h1>
                 </div>
             </section>
             {/* Appetizers & Sides cards */}
