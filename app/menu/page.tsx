@@ -19,14 +19,20 @@ const Menu = () => {
 
     return (
         <div>
+            {/* Menu Banner */}
+            <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply ">
+                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
+                    <div className="mb-4 text-4xl py-4 md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black"></div>
+                </div>
+            </section>
             {/* menu hero */}
-            <section className="bg-white dark:bg-black">
+            <section className="bg-white bg-cover">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <div className="max-w-screen-md">
-                        <h1 className="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-center md:text-left text-black dark:text-red-700">
+                        <h1 className="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-center md:text-left text-black">
                             Large portions at affordable prices.
                         </h1>
-                        <p className="mb-8 font-light text-gray-500 sm:text-xl md:text-2xl dark:text-white text-center md:text-left">
+                        <p className="mb-8 font-bold text-red-700 sm:text-xl md:text-2xl text-center md:text-left">
                             At Double Taste Shawarma our portions will have you leaving full and our great flavour and prices will keep you coming back for more.
                         </p>
 
@@ -35,17 +41,17 @@ const Menu = () => {
             </section>
 
             {/* menu navigation */}
-            <nav className="text-center text-xl p-2">
-                <a href="#plates" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Plates</a>
-                <a href="#combos" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Combos</a>
-                <a href="#wraps" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Wraps</a>
-                <a href="#salads" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Salads</a>
-                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline hidden md:inline">Appetizers & Sides</a>
-                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2 md:hidden">Apps</a>
+            <nav className="text-center text-xl py-2  flex bg-white font-bold">
+                <a href="#plates" className="text-black  hover:text-red-700 mx-2 flex-grow ">Plates</a>
+                <a href="#combos" className="text-black  hover:text-red-700 mx-2 flex-grow ">Combos</a>
+                <a href="#wraps" className="text-black  hover:text-red-700 mx-2 flex-grow ">Wraps</a>
+                <a href="#salads" className="text-black  hover:text-red-700 mx-2 flex-grow ">Salads</a>
+                <a href="#apps" className="text-black  hover:text-red-700 mx-2 flex-grow  hidden md:inline">Appetizers & Sides</a>
+                <a href="#apps" className="text-black  hover:text-red-700 mx-2 flex-grow md:hidden">Apps</a>
             </nav>
 
             {/* Plates Banner */}
-            <section id="plates" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply ">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Plates</h1>
                 </div>
@@ -108,7 +114,7 @@ const Menu = () => {
             </div>
 
             {/* Combos Banner */}
-            <section id="combos" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="combos" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Combos</h1>
                 </div>
@@ -160,7 +166,7 @@ const Menu = () => {
             </div>
 
             {/* Wraps Banner*/}
-            <section id="wraps" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="wraps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Wraps</h1>
                 </div>
@@ -204,7 +210,7 @@ const Menu = () => {
             </div>
 
             {/* Salads Banner*/}
-            <section id="salads" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="salads" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Salads</h1>
                 </div>
@@ -247,7 +253,7 @@ const Menu = () => {
                 </section>
             </div>
             {/* Appetizers & Sides Banner*/}
-            <section id="apps" className="bg-center bg-no-repeat bg-white bg-cover dark:bg-red-700 bg-blend-multiply">
+            <section id="apps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-5xl">Appetizers & Sides</h1>
                 </div>

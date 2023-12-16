@@ -202,6 +202,7 @@ const Navbar = () => {
             Contact
           </button>
         </div>
+        <hr className=" border-gray-200 sm:mx-auto dark:border-gray-700 lg:mt-2" />
       </nav>
     </div>
   );

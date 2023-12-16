@@ -78,9 +78,9 @@ const Gallery = () => {
 
 
     return (
-        <div className="w-full p-4 text-center bg-white rounded-lg shadow sm:p-8 dark:bg-black">
+        <div className="w-full p-4 text-center bg-white shadow border-red-700 border-y-8 sm:p-8 ">
             {/* carousel */}
-                <div className='max-w-[1400px] h-[400px] md:h-[600px] w-full m-auto pb-12 relative group bg-white dark:bg-black'>
+                <div className='max-w-[1400px] h-[400px] md:h-[600px] w-full m-auto pb-12 relative group bg-white'>
                     <div
                         style={{ backgroundImage: `url(${slides[currentIndex].url})`,
                             transition: 'background-image 1s ease-in',

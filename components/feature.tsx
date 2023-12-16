@@ -8,7 +8,7 @@ const Feature = () => {
                     <div className="w-full lg:w-1/2">
                         <div className="lg:max-w-lg">
                             <h1 className="text-center md:text-left  mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-red-700">Bring your appetite</h1>
-                            <p className="mb-8 text-md text-center md:text-left font-normal text-gray-500 lg:text-xl dark:text-white">
+                            <p className="mb-8 text-md text-center md:text-left font-bold text-gray-500 lg:text-xl dark:text-white">
                                 Here at Double Taste Sharawma we pride ourselves on being able to deliver amazing portions at great prices.
                                 <br></br>You might leave wanting more but it won&apos;t be because you&apos;re hungry.
                             </p>
