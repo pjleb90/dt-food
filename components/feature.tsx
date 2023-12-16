@@ -4,7 +4,7 @@ const Feature = () => {
     return (
         <div>
             <section>
-                <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-10 md:px-18 lg:flex-row lg:items-center">
+                <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] md:py-10 md:px-20 lg:flex-row lg:items-center">
                     <div className="w-full lg:w-1/2">
                         <div className="lg:max-w-lg">
                             <h1 className="text-center md:text-left  mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-red-700">Bring your appetite</h1>
@@ -15,7 +15,7 @@ const Feature = () => {
                             {/* features  */}
                             <div className="grid gap-6 mt-8 sm:grid-cols-2">
                                 {/* feature 1 */}
-                                <div className="flex items-center text-gray-800 -px-3 dark:text-white">
+                                <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white">
                                     <svg className="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
@@ -23,7 +23,7 @@ const Feature = () => {
                                     <span className="mx-3">Lorum Epsum</span>
                                 </div>
                                 {/* feature 2 */}
-                                <div className="flex items-center text-gray-800 -px-3 dark:text-gray-200">
+                                <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-gray-200">
                                     <svg className="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
@@ -31,7 +31,7 @@ const Feature = () => {
                                     <span className="mx-3">Lorum Epsum</span>
                                 </div>
                                 {/* feature 3 */}
-                                <div className="flex items-center text-gray-800 -px-3 dark:text-white">
+                                <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white">
                                     <svg className="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
@@ -39,7 +39,7 @@ const Feature = () => {
                                     <span className="mx-3">Lorum Epsum</span>
                                 </div>
                                 {/* feature 4 */}
-                                <div className="flex items-center text-gray-800 -px-3 dark:text-white">
+                                <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white">
                                     <svg className="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
@@ -47,7 +47,7 @@ const Feature = () => {
                                     <span className="mx-3">Lorum Epsum</span>
                                 </div>
                                 {/* feature 5 */}
-                                <div className="flex items-center text-gray-800 -px-3 dark:text-white">
+                                <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white">
                                     <svg className="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
@@ -55,7 +55,7 @@ const Feature = () => {
                                     <span className="mx-3">Lorum Epsum</span>
                                 </div>
                                 {/* feature 6 */}
-                                <div className="flex items-center text-gray-800 -px-3 dark:text-white">
+                                <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white pb-2">
                                     <svg className="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>

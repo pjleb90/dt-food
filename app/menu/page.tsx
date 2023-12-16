@@ -36,11 +36,12 @@ const Menu = () => {
 
             {/* menu navigation */}
             <nav className="text-center text-xl p-2">
-                <a href="#plates" className="text-black dark:text-white hover:text-red-700 mx-2">Plates</a>
-                <a href="#combos" className="text-black dark:text-white hover:text-red-700 mx-2">Combos</a>
-                <a href="#wraps" className="text-black dark:text-white hover:text-red-700 mx-2">Wraps</a>
-                <a href="#salads" className="text-black dark:text-white hover:text-red-700 mx-2">Salads</a>
-                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2">Apps</a>
+                <a href="#plates" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Plates</a>
+                <a href="#combos" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Combos</a>
+                <a href="#wraps" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Wraps</a>
+                <a href="#salads" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline">Salads</a>
+                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2 hover:underline hidden md:inline">Appetizers & Sides</a>
+                <a href="#apps" className="text-black dark:text-white hover:text-red-700 mx-2 md:hidden">Apps</a>
             </nav>
 
             {/* Plates Banner */}

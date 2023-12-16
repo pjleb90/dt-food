@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             <section className="bg-white dark:bg-black">
-                <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-4">
+                <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-2">
                     <div className="font-light text-gray-500 sm:text-lg dark:text-white text-center md:text-left">
                         <h2 className="mb-4 text-4xl md:text-5xl lg:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-red-700">Our story</h2>
                         <p className="mb-4">
@@ -29,7 +29,7 @@ const About = () => {
 
             {/* DT features */}
             <section className="bg-white dark:bg-black">
-                <div className="container px-6 lg:px-18 py-10 mx-auto">
+                <div className="container px-6 lg:px-32 py-10 pb-12 mx-auto">
                     <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 capitalize dark:text-red-700">What makes Double Taste Shawarma <br></br> standout from the rest</h1>
                     {/* header underline */}
                     <div className="mt-2">
@@ -41,8 +41,8 @@ const About = () => {
                     <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
                         <div className="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
                             {/* first feature */}
-                            <div className="space-y-3">
-                                <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
+                            <div className="space-y-3 text-center md:text-left">
+                                <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
@@ -53,8 +53,8 @@ const About = () => {
                                 </p>
                             </div>
                             {/* second feature */}
-                            <div className="space-y-3">
-                                <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
+                            <div className="space-y-3 text-center md:text-left">
+                                <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
@@ -65,8 +65,8 @@ const About = () => {
                                 </p>
                             </div>
                             {/* third feature */}
-                            <div className="space-y-3">
-                                <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
+                            <div className="space-y-3 text-center md:text-left">
+                                <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
@@ -78,8 +78,8 @@ const About = () => {
                             </div>
 
                             {/* fourth feature */}
-                            <div className="space-y-3">
-                                <span className="inline-block p-3 text-blue-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
+                            <div className="space-y-3 text-center md:text-left">
+                                <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
