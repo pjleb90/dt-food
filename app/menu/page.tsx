@@ -34,7 +34,7 @@ const Menu = () => {
                 </div>
             </section>
             {/* menu navigation */}
-            <nav className="text-center text-xl p-2 flex font-bold bg-white bg-cover border-red-700 border-b-8 mb-32 md:px-36">
+            <nav className="text-center text-xl p-2 flex font-bold bg-white bg-cover border-red-700 border-b-8 mb-10 md:px-36">
                 <a href="#plates" className="text-black  hover:text-red-700 mx-2 flex-grow underline">Plates</a>
                 <a href="#combos" className="text-black  hover:text-red-700 mx-2 flex-grow underline">Combos</a>
                 <a href="#wraps" className="text-black  hover:text-red-700 mx-2 flex-grow underline">Wraps</a>
