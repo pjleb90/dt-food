@@ -34,7 +34,7 @@ const Menu = () => {
                 </div>
             </section>
             {/* menu navigation */}
-            <nav className="text-center text-xl p-2 flex font-bold bg-white bg-cover md:px-32">
+            <nav className="text-center text-xl p-2 flex font-bold bg-white bg-cover border-red-700 border-b-8 mb-32 md:px-36">
                 <a href="#plates" className="text-black  hover:text-red-700 mx-2 flex-grow underline">Plates</a>
                 <a href="#combos" className="text-black  hover:text-red-700 mx-2 flex-grow underline">Combos</a>
                 <a href="#wraps" className="text-black  hover:text-red-700 mx-2 flex-grow underline">Wraps</a>
@@ -44,7 +44,7 @@ const Menu = () => {
             </nav>
 
             {/* Plates Banner */}
-            <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply border-b-2 border-white">
+            <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply border-2 border-white">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
                     <h1 className="mb-2 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black">Plates</h1>
                 </div>
