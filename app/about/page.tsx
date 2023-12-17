@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import { PiHandWaving } from "react-icons/pi";
+import { IoPricetagsOutline, IoOptions } from "react-icons/io5";
+import { GiChickenOven } from "react-icons/gi";
 
 const About = () => {
     return (
@@ -21,12 +24,11 @@ const About = () => {
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4 mt-8">
-                        <Image className="w-full rounded-lg" src="/placeholder.jpeg" alt="fresh_ingredients" width={500} height={500} />
-                        <Image className="mt-4 w-full lg:mt-10 rounded-lg" src="/placeholder.jpeg" alt="fresh_ingredients" width={500} height={500} />
+                        <Image className="w-full h-96 rounded-lg" src="/shawarma.jpeg" alt="office content 1" width={500} height={500}/>
+                        <Image className="mt-4 w-full h-96 lg:mt-10 rounded-lg" src="/combos.png" alt="office content 2" width={500} height={500}/>
                     </div>
                 </div>
             </section>
-
             {/* DT features */}
             <section className="bg-white dark:bg-black">
                 <div className="container px-6 lg:px-32 py-10 pb-12 mx-auto">
@@ -43,9 +45,7 @@ const About = () => {
                             {/* first feature */}
                             <div className="space-y-3 text-center md:text-left">
                                 <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                    </svg>
+                                    <GiChickenOven className="w-7 h-7" strokeWidth={4} />
                                 </span>
                                 <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Fresh Ingredients</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
@@ -55,9 +55,7 @@ const About = () => {
                             {/* second feature */}
                             <div className="space-y-3 text-center md:text-left">
                                 <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                    </svg>
+                                    <PiHandWaving className="w-7 h-7" strokeWidth={4} />
                                 </span>
                                 <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Friendly Service</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
@@ -67,30 +65,25 @@ const About = () => {
                             {/* third feature */}
                             <div className="space-y-3 text-center md:text-left">
                                 <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                    </svg>
+                                    <IoPricetagsOutline className="w-7 h-7" strokeWidth={4} />
                                 </span>
-                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Flavorful Variety</h1>
+                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Affordable Prices</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
-                                    Explore a diverse menu of mouthwatering shawarmas, from classic chicken and souvlaki to exotic flavors that will tantalize your taste buds.
+                                    Enjoy mouthwatering shawarmas without breaking the bank. Our commitment to affordability ensures that you can savor every bite without compromising your budget.
                                 </p>
                             </div>
-
                             {/* fourth feature */}
                             <div className="space-y-3 text-center md:text-left">
                                 <span className="inline-block p-3 text-gray-500 bg-blue-100 rounded-xl dark:text-white dark:bg-red-700">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                    </svg>
+                                    <IoOptions className="w-7 h-7" strokeWidth={4} />
                                 </span>
                                 <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Customizable Options</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
-                                    Tailor your shawarma just the way you like it! With a range of customizable options, you have the freedom to create a shawarma masterpiece that suits your cravings.
+                                    From chicken to souvlaki to falafel, tailor your shawarma just the way you like it! With a range of customizable options, you have the freedom to create a shawarma masterpiece that suits your cravings.
                                 </p>
                             </div>
                         </div>
-
+                        {/* logo */}
                         <div className="hidden lg:flex lg:w-1/2 lg:justify-center">
                             <Image className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
                             src="/logo.jpeg" alt="" width={500} height={500} />
