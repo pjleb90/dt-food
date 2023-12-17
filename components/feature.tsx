@@ -20,7 +20,7 @@ const Feature = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span className="mx-3">Lorum Epsum</span>
+                                    <span className="mx-3">Fresh Ingredients</span>
                                 </div>
                                 {/* feature 2 */}
                                 <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-gray-200">
@@ -28,7 +28,7 @@ const Feature = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span className="mx-3">Lorum Epsum</span>
+                                    <span className="mx-3">Great Prices</span>
                                 </div>
                                 {/* feature 3 */}
                                 <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white">
@@ -36,7 +36,7 @@ const Feature = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span className="mx-3">Lorum Epsum</span>
+                                    <span className="mx-3">Large Portions</span>
                                 </div>
                                 {/* feature 4 */}
                                 <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white">
@@ -44,7 +44,7 @@ const Feature = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span className="mx-3">Lorum Epsum</span>
+                                    <span className="mx-3">Flavorful Variety</span>
                                 </div>
                                 {/* feature 5 */}
                                 <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white">
@@ -52,14 +52,14 @@ const Feature = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
 
-                                    <span className="mx-3">Lorum Epsum</span>
+                                    <span className="mx-3">Signature Sauces</span>
                                 </div>
                                 {/* feature 6 */}
                                 <div className="flex items-center justify-center md:justify-start text-gray-800 -px-3 dark:text-white pb-2">
                                     <svg className="w-5 h-5 mx-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span className="mx-3">Lorum Epsum</span>
+                                    <span className="mx-3">Customizable Options</span>
                                 </div>
                             </div>
                         </div>

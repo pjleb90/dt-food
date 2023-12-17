@@ -47,9 +47,9 @@ const About = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
                                 </span>
-                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Lorum Epsum</h1>
+                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Fresh Ingredients</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                                    Indulge in the exceptional flavors of our shawarmas crafted with the freshest and finest ingredients. We source locally to ensure every bite is a burst of deliciousness.
                                 </p>
                             </div>
                             {/* second feature */}
@@ -59,9 +59,9 @@ const About = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
                                 </span>
-                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Lorum Epsum</h1>
+                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Friendly Service</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                                    Beyond the delicious shawarmas, experience warmth in every interaction. Our friendly and dedicated team is committed to making your visit a delightful and memorable one.
                                 </p>
                             </div>
                             {/* third feature */}
@@ -71,9 +71,9 @@ const About = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
                                 </span>
-                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Lorum Epsum</h1>
+                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Flavorful Variety</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                                    Explore a diverse menu of mouthwatering shawarmas, from classic chicken and souvlaki to exotic flavors that will tantalize your taste buds.
                                 </p>
                             </div>
 
@@ -84,9 +84,9 @@ const About = () => {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                                     </svg>
                                 </span>
-                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Lorum Epsum</h1>
+                                <h1 className="text-2xl md:text-3xl font-semibold text-gray-700 capitalize dark:text-red-700">Customizable Options</h1>
                                 <p className="text-gray-500 dark:text-gray-300 md:text-xl">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                                    Tailor your shawarma just the way you like it! With a range of customizable options, you have the freedom to create a shawarma masterpiece that suits your cravings.
                                 </p>
                             </div>
                         </div>
