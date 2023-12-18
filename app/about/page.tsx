@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div>
             <section className="bg-white dark:bg-black">
-                <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-2">
+                <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-10 lg:px-2">
                     <div className="font-bold text-gray-500 sm:text-lg dark:text-white text-center md:text-left">
                         <h2 className="mb-4 text-4xl md:text-5xl lg:text-6xl tracking-tight font-extrabold text-gray-900 dark:text-red-700">Our story</h2>
                         <p className="mb-4">
@@ -24,8 +24,8 @@ const About = () => {
                         </p>
                     </div>
                     <div className="grid grid-cols-2 gap-4 mt-8">
-                        <Image className="w-full h-96 rounded-lg" src="/shawarma.jpeg" alt="office content 1" width={500} height={500}/>
-                        <Image className="mt-4 w-full h-96 lg:mt-10 rounded-lg" src="/combos.png" alt="office content 2" width={500} height={500}/>
+                        <Image className="w-full h-56 md:h-96 rounded-lg" src="/shawarma.jpeg" alt="office content 1" width={500} height={500}/>
+                        <Image className="mt-4 w-full h-56 md:h-96 lg:mt-10 rounded-lg" src="/combos.png" alt="office content 2" width={500} height={500}/>
                     </div>
                 </div>
             </section>

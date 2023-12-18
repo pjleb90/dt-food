@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="bg-white rounded-lg shadow dark:bg-black">
-                <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div className="w-full max-w-screen-xl mx-auto px-4 py-10 md:py-10">
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                             <Image src="/favicon.ico" className="h-8 rounded-xl" alt="Flowbite Logo" width={40} height={40} />

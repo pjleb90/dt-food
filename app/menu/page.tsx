@@ -21,7 +21,7 @@ const Menu = () => {
         <div>
             {/* menu hero */}
             <section className="bg-white dark:bg-black bg-cover">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl md:py-6 md:px-6">
+                <div className="py-8 px-4 mx-auto max-w-screen-xl md:py-10 md:px-6">
                     <div className="max-w-screen-md">
                         <h1 className="mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-none text-center md:text-left text-black dark:text-red-700">
                             Large portions at affordable prices.
