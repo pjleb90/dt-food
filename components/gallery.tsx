@@ -8,7 +8,7 @@ const Gallery = () => {
       const slides = [
         {
 
-            url: 'placeholder.jpeg',
+            url: 'test.jpeg',
         },
         {
 
@@ -78,9 +78,9 @@ const Gallery = () => {
 
 
     return (
-        <div className="w-full p-4 text-center bg-white shadow border-red-700 border-y-8 sm:p-8 ">
+        <div className="w-full pt-4 px-4 text-center bg-white dark:bg-black shadow border-red-700  sm:p-8 ">
             {/* carousel */}
-                <div className='max-w-[1400px] h-[400px] md:h-[600px] w-full m-auto pb-12 relative group bg-white'>
+                <div className='max-w-[1200px] h-[400px] md:h-[600px] w-full m-auto pb-12 relative group bg-white dark:bg-black rounded-md'>
                     <div
                         style={{ backgroundImage: `url(${slides[currentIndex].url})`,
                             transition: 'background-image 1s ease-in',
@@ -95,12 +95,12 @@ const Gallery = () => {
                     <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                         <BsChevronCompactRight onClick={nextSlide} size={30} />
                     </div>
-                    <div className='flex top-4 justify-center py-2'>
+                    <div className='flex top-4 justify-center py-2 dark:bg-black'>
                         {slides.map((slide, slideIndex) => (
                         <div
                             key={slideIndex}
                             onClick={() => goToSlide(slideIndex)}
-                            className={`text-2xl cursor-pointer ${currentIndex === slideIndex ? 'text-red-700' : 'text-gray-500'}`}
+                            className={`text-2xl cursor-pointer ${currentIndex === slideIndex ? 'text-red-700' : 'text-gray-500 dark:bg-black'}`}
                         >
                             <RxDotFilled />
                         </div>
