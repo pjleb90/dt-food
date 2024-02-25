@@ -45,7 +45,7 @@ const Menu = () => {
 
             {/* Plates Banner */}
             <section id="plates" className="bg-center bg-no-repeat bg-red-700 bg-blend-multiply border-y-2 2xl:border-2 2xl:mx-60 border-white">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
+                <div className="px-4 mx-auto max-w-screen-xl text-center mt-1">
                     <h1 className="mb-2 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black dark:text-white">Plates</h1>
                 </div>
             </section>
@@ -108,7 +108,7 @@ const Menu = () => {
 
             {/* Combos Banner */}
             <section id="combos" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white 2xl:border-2 2xl:mx-60">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
+                <div className="px-4 mx-auto max-w-screen-xl text-center mt-1">
                     <h1 className="mb-2 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black dark:text-white">Combos</h1>
                 </div>
             </section>
@@ -160,7 +160,7 @@ const Menu = () => {
 
             {/* Wraps Banner*/}
             <section id="wraps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white 2xl:border-2 2xl:mx-60">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
+                <div className="px-4 mx-auto max-w-screen-xl text-center mt-1">
                     <h1 className="mb-2 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-black dark:text-white">Wraps</h1>
                 </div>
             </section>
@@ -204,7 +204,7 @@ const Menu = () => {
 
             {/* Salads Banner*/}
             <section id="salads" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white 2xl:border-2 2xl:mx-60">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
+                <div className="px-4 mx-auto max-w-screen-xl text-center mt-1">
                     <h1 className="mb-2 text-4xl font-extrabold tracking-tight leading-none text-black dark:text-white md:text-5xl lg:text-5xl">Salads</h1>
                 </div>
             </section>
@@ -247,7 +247,7 @@ const Menu = () => {
             </div>
             {/* Appetizers & Sides Banner*/}
             <section id="apps" className="bg-center bg-no-repeat bg-cover bg-red-700 bg-blend-multiply border-y-2 border-white 2xl:border-2 2xl:mx-60">
-                <div className="px-4 mx-auto max-w-screen-xl text-center py-4">
+                <div className="px-4 mx-auto max-w-screen-xl text-center mt-1">
                     <h1 className="mb-2 text-4xl font-extrabold tracking-tight leading-none text-black dark:text-white md:text-5xl lg:text-5xl">Appetizers & Sides</h1>
                 </div>
             </section>

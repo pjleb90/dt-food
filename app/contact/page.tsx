@@ -18,7 +18,7 @@ const Contact = () => {
                     </p>
                 </div>
                 {/* location cards */}
-                <div className="flex justify-center items-center px-2 border-red-700 border-y-8">
+                <div className="flex justify-center items-center px-2 border-red-700 border-y-4">
                     <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-12 py-4">
                         {/* location 1 */}
                         <div className="max-w-sm bg-white border-b border-gray-200 rounded-lg shadow dark:bg-black dark:border-gray-700 py-6">
