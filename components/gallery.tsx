@@ -8,11 +8,11 @@ const Gallery = () => {
       const slides = [
         {
 
-            url: 'test.jpeg',
+            url: '1.jpeg',
         },
         {
 
-            url: 'placeholder.jpeg',
+            url: 'test.jpeg',
         },
         {
 

@@ -7,7 +7,9 @@ const Feature = () => {
                 <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] md:py-10 md:px-20 lg:flex-row lg:items-center">
                     <div className="w-full lg:w-1/2">
                         <div className="lg:max-w-lg">
-                            <h1 className="text-center md:text-left  mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-red-700">Bring your appetite</h1>
+                            <h1 className="text-center md:text-left  mb-4 text-4xl md:text-5xl lg:text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-red-700">
+                                Bring your appetite
+                            </h1>
                             <p className="mb-8 text-md text-center md:text-left font-bold text-gray-500 lg:text-xl dark:text-white">
                                 Here at Double Taste Sharawma we pride ourselves on being able to deliver amazing portions at great prices.
                                 <br></br>You might leave wanting more but it won&apos;t be because you&apos;re hungry.
@@ -66,7 +68,7 @@ const Feature = () => {
                     </div>
                     {/* feature photo */}
                     <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-                        <Image className="object-cover w-full h-full max-w-2xl rounded-md" src="/placeholder.jpeg" alt="glasses photo" width={500} height={500} />
+                        <Image className="object-cover w-full h-full max-w-2xl rounded-md" src="/sPlate.jpeg" alt="glasses photo" width={500} height={500} />
                     </div>
                 </div>
             </section>
